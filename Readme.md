@@ -1,10 +1,17 @@
-Projects  uses
+# Project Prerequisite
 
-prequisite:
 
+Database
+-
 MongoDB
-  database:  vendor
+
+- database:  vendor
+
+Message Queue Server
+-
+
 Apache ActiveMQ
-  CONSUMER.QUEUE
+
+ -Queue : CONSUMER.QUEUE
   
   

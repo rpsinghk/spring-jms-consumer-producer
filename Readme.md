@@ -12,6 +12,6 @@ Message Queue Server
 
 Apache ActiveMQ
 
- -Queue : CONSUMER.QUEUE
+- Queue : CONSUMER.QUEUE
   
   

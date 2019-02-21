@@ -36,7 +36,7 @@
 	</appender>
 
 	<!-- Setup the root category, add the appenders and set the default level -->
-	<root level="debug">
+	<root level="info">
 		<appender-ref ref="consumer-app" />
 		<appender-ref ref="console-log"/>
 	</root>

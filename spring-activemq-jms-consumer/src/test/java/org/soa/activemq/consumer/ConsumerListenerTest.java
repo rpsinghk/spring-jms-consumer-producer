@@ -24,9 +24,9 @@ public class ConsumerListenerTest {
 
 	@Test
 	public void onMessageTest() {
-
+		Assert.assertNotEquals(null, message);
 		consumerService.onMessage(message);
-
+		
 	}
 
 }

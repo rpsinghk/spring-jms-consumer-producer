@@ -1,6 +1,5 @@
 package org.vendor.ui.model;
 
-import java.io.Serializable;
 import java.sql.Timestamp;
 import java.time.Instant;
 

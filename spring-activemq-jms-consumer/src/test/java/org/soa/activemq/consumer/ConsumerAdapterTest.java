@@ -1,6 +1,6 @@
 package org.soa.activemq.consumer;
 
-import static org.junit.Assert.assertEquals;
+import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.Assert.assertNotNull;
 
 import java.io.IOException;
@@ -52,8 +52,7 @@ public class ConsumerAdapterTest {
 			LOGGER.info(contactList.toString());
 			assertNotNull(json);
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			assertThat(e);
 		}
 	}
 	
